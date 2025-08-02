@@ -10,10 +10,9 @@ tags: [atmosphere, crm, cloudtracking, algorithm]
 The cloud tracking algorithm presented here builds upon the Iterative Rain Cell Tracking (IRT) algorithm developed by Moseley and Haeter in 2020. We have expanded this approach from tracking 2-dimensional rain cells to capturing 3-dimensional cloud objects in the cloud resolving model.
 
 This algorithm is designed to track the liquid water path instead of rain cells, projecting the identified entities onto the 3-dimensional cloud objects. For the sake of simplicity and ease of operation, when addressing the merging and splitting of cloud objects during their time evolution, we treat them as the same identity. (Refer to the detailed process outlined below.)
-![Algorithm](/assets/img/2022-09-30-algorithmProcess.png)
 
 ## Table of Contents:
-* Source Code: <https://github.com/neko2048/iterativeRainCellTracking>
+* Source Code: <https://github.com/elelmokao/iterativeRainCellTracking>
 * [Iterative rain cell tracking](#iterative-rain-cell-tracking)
     * Parameter Setup
     * Transfer 2D Track Variable
