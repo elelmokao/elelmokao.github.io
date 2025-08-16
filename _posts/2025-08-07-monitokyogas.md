@@ -24,11 +24,10 @@ Tokyo Gas（東京ガス）在主頁上可以查看自己每期、每天、每�
     * Github Actions作為自動CICD，每天執行後端抓取資料、前端在有變更時做github page deployment
 
 ## Development History
-1. 2025-08-07: 原型完成，可以模擬網站登入獲得Cookie並抓取歷史用電紀錄，透過Github Action 自動抓取
-    * [2025-08-07-monitokyogas-backend-1.md](https://elelmokao.github.io/posts/tokyogas-backend-1/)
-    * [2025-08-07-monitokyogas-frontend-1.md](https://elelmokao.github.io/posts/tokyogas-frontend-1/)
-2. 2025-08-17: 設計自動前端部署CICD，並且實作前端頁面
-    * [2025-08-17-monitokyogas-frontend-2.md](https://elelmokao.github.io/posts/tokyogas-frontend-2/)
+1. 2025-08-08: 原型完成，可以模擬網站登入獲得Cookie並抓取歷史用電紀錄，透過Github Action 自動抓取
+    * [2025-08-07-monitokyogas-backend-1.md](../monitokyogas-backend-1/)
+2. 2025-08-16: 設計自動前端部署CICD，並且實作前端頁面
+    * [2025-08-07-monitokyogas-frontend-1.md](../monitokyogas-frontend-1/)
 
 ---
 ## Ref
